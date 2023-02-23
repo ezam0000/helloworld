@@ -17,7 +17,7 @@ import streamlit as st
 st.header('st.write')
 
 #example 1 
-st.write('Hello, *World* :sunglasses:')
+st.write('Hello, *My fellow americans* :sunglasses:')
 #example 2
 st.write(1234)
 # Example 3
