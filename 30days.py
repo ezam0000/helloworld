@@ -80,3 +80,15 @@ start_time = st.slider(
     value = datetime(2020, 1, 1, 9, 30),
     format = 'MM/DD/YY - hh:mm')
 st.write("Start time: ", start_time)
+
+# DAy 9
+
+st.subheader('Day 9')
+
+st.subheader('Line chart')
+
+char_data = pd.DataFrame(
+    np.random.rand(20, 3),
+    colums=['a', 'b', 'c'])
+
+st.line_chart(char_data)
