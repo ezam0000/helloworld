@@ -85,10 +85,14 @@ st.write("Start time: ", start_time)
 
 st.subheader('Day 9')
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+
 st.subheader('Line chart')
 
-char_data = pd.DataFrame(
-    np.random.rand(20, 3),
-    colums=['a', 'b', 'c'])
+chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=['a', 'b', 'c'])
 
-st.line_chart(char_data)
+st.line_chart(chart_data)
