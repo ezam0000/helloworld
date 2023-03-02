@@ -96,3 +96,13 @@ chart_data = pd.DataFrame(
     columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
+
+# Day 10
+
+st.header('Select Box')
+
+option = st.selectbox(
+    "What's your favorite color",
+    ('Blue', 'Red', 'Green'))
+
+st.write('Your favorite color is', option)
